@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGJ Framework.CSharp.Plugins", "GGJ Framework.CSharp.Plugins.csproj", "{EA87DDF7-DFA0-0CBC-93A0-80633C143A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGJ Framework.CSharp", "GGJ Framework.CSharp.csproj", "{D6D17583-896A-C860-200F-560D8A5394CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGJ Framework.CSharp.Editor", "GGJ Framework.CSharp.Editor.csproj", "{524370DC-5F22-5D66-E501-D74FE37E0C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA87DDF7-DFA0-0CBC-93A0-80633C143A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA87DDF7-DFA0-0CBC-93A0-80633C143A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA87DDF7-DFA0-0CBC-93A0-80633C143A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA87DDF7-DFA0-0CBC-93A0-80633C143A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D17583-896A-C860-200F-560D8A5394CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D17583-896A-C860-200F-560D8A5394CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D17583-896A-C860-200F-560D8A5394CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D17583-896A-C860-200F-560D8A5394CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524370DC-5F22-5D66-E501-D74FE37E0C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524370DC-5F22-5D66-E501-D74FE37E0C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524370DC-5F22-5D66-E501-D74FE37E0C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524370DC-5F22-5D66-E501-D74FE37E0C49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
