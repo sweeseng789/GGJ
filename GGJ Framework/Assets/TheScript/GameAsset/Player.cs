@@ -3,12 +3,22 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
+	public GameObject Object;
+	public AudioClip Sound;
+
+	private AudioSource enter16;
 
 	// Use this for initialization
 	void Start ()
     {
         Debug.Log("Everything is Awesome");
 	}
+
+	void Awake () {
+		enter16 = GetComponent<AudioSource>();
+	}
+
+
 	
 	// Update is called once per frame
 	void Update ()
@@ -47,6 +57,7 @@ public class Player : MonoBehaviour
             if(hit)
             {
                 Debug.Log("hit " + hitInfo.transform.gameObject.name);
+				enter16.PlayOneShot (Sound);
             }
             else
             {
