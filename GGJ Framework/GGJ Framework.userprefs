@@ -1,9 +1,42 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TheScript\GameAsset\Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BGM_Changer.cs">
     <Files>
-      <File FileName="Assets\TheScript\GameAsset\Player.cs" Line="60" Column="33" />
+      <File FileName="Assets\MainMenuSoundScript.cs" Line="56" Column="23" />
+      <File FileName="Assets\TheScript\GameAsset\Player.cs" Line="62" Column="8" />
+      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" Line="20" Column="33" />
+      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" Line="73" Column="7" />
+      <File FileName="Assets\BGM_Changer.cs" Line="8" Column="2" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GGJ Framework" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="TheScript" expanded="True">
+                <Node name="GameAsset" expanded="True" />
+              </Node>
+              <Node name="BGM_Changer.cs" selected="True" />
+            </Node>
+            <Node name="Assembly-CSharp-firstpass" expanded="True">
+              <Node name="Sound" expanded="True">
+                <Node name="Pocketse" expanded="True" />
+              </Node>
+              <Node name="Standard Assets" expanded="True">
+                <Node name="CrossPlatformInput" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="GGJ Framework" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

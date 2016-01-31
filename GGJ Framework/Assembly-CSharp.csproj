@@ -45,6 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BGM_Changer.cs" />
+     <Compile Include="Assets\MainMenuSoundScript.cs" />
      <Compile Include="Assets\TheScript\GameAsset\Player.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Sound\Pocketse\readme.txt" />
