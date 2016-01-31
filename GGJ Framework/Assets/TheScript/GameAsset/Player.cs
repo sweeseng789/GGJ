@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-	public GameObject Object;
 	public AudioClip Sound;
 
 	private AudioSource enter16;
@@ -54,10 +53,14 @@ public class Player : MonoBehaviour
             RaycastHit hitInfo = new RaycastHit();
             bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
 
+			// Developer Note: Objects under that layer affected by the actions will trigger the event below
+			// Example: Objects falling under Layer 9 will be affected when clicked on.
             if(hit)
             {
-                Debug.Log("hit " + hitInfo.transform.gameObject.name);
-				enter16.PlayOneShot (Sound);
+				if (hitInfo.transform.gameObject.layer == 9) {
+					Debug.Log ("hit " + hitInfo.transform.gameObject.name);
+					enter16.PlayOneShot (Sound);
+				}
             }
             else
             {
