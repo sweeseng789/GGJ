@@ -7,7 +7,18 @@ namespace UnityStandardAssets.CrossPlatformInput
     {
         public string axis;
 
-	    void Update() { }
+		public AudioClip Sound;
+		private AudioSource enter16;
+
+		void Awake () {
+			enter16 = GetComponent<AudioSource>();
+		}
+
+	    void Update()
+		{
+			if (Input.GetKey(KeyCode.KeypadEnter))
+				enter16.PlayOneShot (Sound);
+		}
 
 	    public void HandleInput(float value)
         {
